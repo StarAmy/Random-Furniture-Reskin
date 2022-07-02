@@ -1,0 +1,114 @@
+{
+    "Format": "1.23.0",
+    "Changes": [
+
+    
+    //start deleting here to remove butterfly hutch reskin
+    {
+     "LogName": "Butterfly Hutch Animated",  
+     "Action": "EditImage",
+        "Target": "TileSheets/Furniture",
+     "FromFile": "assets/butterfly_hutch.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 48 }, 
+        "ToArea": { "X": 304, "Y": 976, "Width": 32, "Height": 48 },
+     "AnimationFrameTime": 15,
+     "AnimationFrameCount": 10,
+     "When":
+        {
+        "HasMod": "spacechase0.ContentPatcherAnimations",
+        },
+    },
+    //finish deleting here to remove butterfly hutch reskin
+
+
+
+    //start deleting here to remove beehive reskin
+      {
+     "LogName": "Empty Beehive Hutch Animated", 
+      "Action": "EditImage",
+        "Target": "TileSheets/Craftables",
+        "FromFile": "assets/beehive_empty.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 }, 
+        "ToArea": { "X": 32, "Y": 32, "Width": 16, "Height": 32 },
+          "AnimationFrameTime": 15,
+     "AnimationFrameCount": 3,
+     "When":
+        {
+        "HasMod": "spacechase0.ContentPatcherAnimations",
+        },
+    },
+     {
+    "LogName": "Full Beehive Hutch Animated", 
+      "Action": "EditImage",
+        "Target": "TileSheets/Craftables",
+        "FromFile": "assets/beehive_full.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 }, 
+        "ToArea": { "X": 48, "Y": 32, "Width": 16, "Height": 32 },
+          "AnimationFrameTime": 15,
+     "AnimationFrameCount": 6,
+     "When":
+        {
+        "HasMod": "spacechase0.ContentPatcherAnimations",
+        },
+     },
+      //finish deleting here to remove behive reskin
+
+
+
+     //start deleting here to remove mushroom box reskin
+      {
+      "Action": "EditImage",
+        "Target": "TileSheets/Craftables",
+        "FromFile": "assets/mushroom_box_empty.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 }, 
+        "ToArea": { "X": 0, "Y": 512, "Width": 16, "Height": 32 },
+     },
+     {
+      "Action": "EditImage",
+        "Target": "TileSheets/Craftables",
+        "FromFile": "assets/mushroom_box_full.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 }, 
+        "ToArea": { "X": 16, "Y": 512, "Width": 16, "Height": 32 },
+     },
+      //start deleting here to remove mushroom box reskin
+
+
+
+     //start deleting here to remove garden pot reskin
+      {
+      "Action": "EditImage",
+        "Target": "TileSheets/Craftables",
+        "FromFile": "assets/garden_pot_dry.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 }, 
+        "ToArea": { "X": 96, "Y": 224, "Width": 16, "Height": 32 },
+     },
+      {
+      "Action": "EditImage",
+        "Target": "TileSheets/Craftables",
+        "FromFile": "assets/garden_pot_wet.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 }, 
+        "ToArea": { "X": 112, "Y": 224, "Width": 16, "Height": 32 },
+     },
+      //finish deleting here to remove garden pot reskin
+
+
+
+     //start deleting here to remove worm bin reskin
+       {
+      "LogName": "Worm Bin Animated", 
+      "Action": "EditImage",
+        "Target": "TileSheets/Craftables",
+        "FromFile": "assets/worm_bin.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 }, 
+        "ToArea": { "X": 32, "Y": 608, "Width": 16, "Height": 32 },
+        "AnimationFrameTime": 30,
+        "AnimationFrameCount": 4,
+        "When":
+        {
+        "HasMod": "spacechase0.ContentPatcherAnimations",
+        },
+     },
+    //finish deleting here to remove worm bin reskin
+
+  ]
+}
